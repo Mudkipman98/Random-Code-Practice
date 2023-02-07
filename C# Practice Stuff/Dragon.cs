@@ -5,17 +5,18 @@ namespace Program
     public class Dragon
     {
         //fields
-        string color;
         int age;
         string size;
 
         //Properties
-        public string Color {get; set;}
+        public string Name {get; private set;}
+        public string Color {get; protected set;}
         public int Age {get; set;}
         public string Size {get; set;}
 
-        public Dragon()
+        public Dragon(string name, string color)
         {
+            Name = name;
             Color = color;
             Age = age;
             Size = size;
