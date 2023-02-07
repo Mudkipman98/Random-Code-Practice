@@ -1,3 +1,7 @@
+# Welcome to Practice Code Zone Place Thing IDK
+
+I'm using this git repository as a place to keep track of code I'm practicing on remotely, so I can just switch computers and pick up where I left off and stuff.  idk it's pretty rad.  Friends can do stuff to my stuff too, so that's cool.  Then I can learn how branches and pull requests and all that work.  Weeeeeeeee!
+
 ## I'm Doing Markdown Practice Too
 
 Why does Markdown read like English?  Maybe it's just because I'm now realizing that loads of websites and web apps have markdown support, but like...
