@@ -5,18 +5,25 @@ namespace Program
     public class Dragon
     {
         //Properties
-        public string Name {get; private set;}
-        public string Color {get; protected set;}
-        public int Age {get; set;}
-        public string Size {get; set;}
+        public string Name { get; private set; }
 
-        public Dragon(string name, string color, int age = 0, string size = "Small")
+        public string Color { get; protected set; }
+
+        public int Age { get; set; }
+
+        public string Size { get; set; }
+
+        public Dragon(
+            string name,
+            string color,
+            int age = 0,
+            string size = "Small"
+        )
         {
             Name = name;
             Color = color;
             Age = age;
             Size = size;
-
         }
 
         public string Roar()
@@ -30,10 +37,9 @@ namespace Program
 
             int result;
             Random random = new Random();
-            result = random.Next(1,7);
+            result = random.Next(1, 7);
 
             Console.WriteLine($"{Name} deals {result} to {target}!");
         }
-
     }
 }
