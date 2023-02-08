@@ -4,17 +4,13 @@ namespace Program
 {
     public class Dragon
     {
-        //fields
-        int age;
-        string size;
-
         //Properties
         public string Name {get; private set;}
         public string Color {get; protected set;}
         public int Age {get; set;}
         public string Size {get; set;}
 
-        public Dragon(string name, string color)
+        public Dragon(string name, string color, int age = 0, string size = "Small")
         {
             Name = name;
             Color = color;
@@ -28,9 +24,15 @@ namespace Program
             return "RAWR!";
         }
 
-        public void BreathAttack()
+        public void BreathAttack(string target)
         {
-            Console.WriteLine();
+            Console.WriteLine($"{Name} uses a breath attack on {target}!");
+
+            int result;
+            Random random = new Random();
+            result = random.Next(1,7);
+
+            Console.WriteLine($"{Name} deals {result} to {target}!");
         }
 
     }
