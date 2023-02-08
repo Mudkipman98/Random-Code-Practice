@@ -33,6 +33,8 @@ namespace Program
             result = random.Next(1,7);
 
             Console.WriteLine($"{Name} deals {result} to {target}!");
+
+            Console.WriteLine("Hey check it out, you merged from main!");
         }
 
     }
