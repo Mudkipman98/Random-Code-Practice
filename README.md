@@ -24,3 +24,5 @@ Here's a place to dump shit while I learn.
 Check out the little dragon program I'm writing.  Not sure what I'm gonna do with it yet, it's just a class, some tools, and basic character-creation narration, but it's progress!
 
 #Slight Correction
+
+Something random
