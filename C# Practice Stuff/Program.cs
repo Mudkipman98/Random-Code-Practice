@@ -41,15 +41,30 @@ namespace Program
 
             Dragon user = new Dragon(name, color, age, size);
 
+            Console.WriteLine("You find yourself in a cave.  There's a scavenger in front you, and they're brandishing a knife.  What do you do?");
+
+            string firstChoice1 = Console.ReadLine().ToLower();
+            string firstChoice2 = Console.ReadLine().ToLower();
+
+            string[] firstChoice = new string[] {firstChoice1, firstChoice2};
+
+            if(firstChoice[0] == "attack" && firstChoice[1] != "")
+            {
+                user.BreathAttack(firstChoice[1]);
+            }
+            else
+            {
+                Console.WriteLine("shid pood fard");
+            }
+
+
+
             //uncomment the below and fill in the argument for quick debugging
-            Console.WriteLine(user.Name);
-            Console.WriteLine(user.Color);
-            Console.WriteLine(user.Age);
-            Console.WriteLine(user.Size);
-
-
-
-
+            // Console.WriteLine(user.Name);
+            // Console.WriteLine(user.Color);
+            // Console.WriteLine(user.Age);
+            // Console.WriteLine(user.Size);
+            // Console.WriteLine(user.HP);
         }
     }
 
