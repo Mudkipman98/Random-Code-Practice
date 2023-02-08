@@ -21,37 +21,4 @@ Am I stupid?  Because this seems really easy.
 
 Here's a place to dump shit while I learn.
 
-I think I've got the syntax of this class inheritance in C# down.  Can anyone confirm?
-
-```
-public class PracticeClass
-{
-    string content;
-    
-
-    //Properties (protected should mean that each property is private except for derived classes, those can set it)
-    public string Content {get; protected set;}
-    
-
-    //Constructor in C#
-    public PracticeClass()
-    {
-        this.Content = content;
-        
-    }
-
-    public void Print()
-    {
-        Console.WriteLine(Content);
-    }
-
-    public string Write(string i)
-    {
-        this.Content = i;
-    }
-}
-
-public class MorePractice : PracticeClass
-{
-    //because this class is inheriting PracticeClass, it should have access to all of the code in that class too.  And because the Content property is 'protected' code in this class can edit instances of it when it's used.
-}
+Check out the little dragon program I'm writing.  Not sure what I'm gonna do with it yet, it's just a class, some tools, and basic character-creation narration, but it's progress!
