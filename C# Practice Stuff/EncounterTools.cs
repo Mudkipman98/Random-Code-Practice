@@ -5,20 +5,19 @@ namespace Program
     public class EncounterTools
     {
 
-        Dragon user = Program.Dragon.user;
-
         public static void EncounterStart()
         {
             DrawHUD();
         }
 
 
-        public void DrawHUD()
+        public static void DrawHUD()
         {
             int hudWidth = 20;
 
             string topOrBottom = "O--------------------O";
 
+            Dragon user = Program.user;
 
             Console.WriteLine(topOrBottom);
             Console.WriteLine($"| Name: {Program.user.Name}");
