@@ -23,6 +23,4 @@ Here's a place to dump shit while I learn.
 
 Check out the little dragon program I'm writing.  Not sure what I'm gonna do with it yet, it's just a class, some tools, and basic character-creation narration, but it's progress!
 
-#Slight Correction
-
-Something random
+K so I kind of want to make it a text based adventure game like Zork.  But then I started reading up on Zork logic, and oh my god it's complicated but oh my god it's cool.  I think I'm gonna start doing that.  Making a parser.
