@@ -5,9 +5,9 @@ namespace Program
     public class Dragon
     {
         //Properties
-        public string Name { get; private set; }
+        public string Name { get; set; }
 
-        public string Color { get; protected set; }
+        public string Color { get; set; }
 
         public int Age { get; set; }
 
