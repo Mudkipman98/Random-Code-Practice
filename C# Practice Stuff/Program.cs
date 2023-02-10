@@ -5,9 +5,13 @@ namespace Program
     
     class Program
     {
-        public static void Main(string[] args)
-        {
-            Dragon user = Start();
+        
+        
+        
+        public void Main(string[] args)
+        {  
+            public Dragon user = Start();
+            EncounterTools.DrawHUD();
 
             
 
@@ -55,8 +59,8 @@ namespace Program
 
             Console.WriteLine("One moment while I understand you."); //Clunky phrasing, consider revising.
 
-            Dragon user = new Dragon(name, color, age, size);
-            return user;
+            Dragon d = new Dragon(name, color, age, size);
+            return d;
         }
     }
 

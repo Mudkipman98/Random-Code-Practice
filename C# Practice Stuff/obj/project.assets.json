@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\mudki\\.nuget\\packages\\": {}
+    "C:\\Users\\Stephan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mudki\\programming_practice\\Random-Code-Practice\\C# Practice Stuff\\Programming_Practice.csproj",
+      "projectUniqueName": "C:\\Users\\mudki\\Programming_Practice\\C# Practice Stuff\\Programming_Practice.csproj",
       "projectName": "Programming_Practice",
-      "projectPath": "C:\\Users\\mudki\\programming_practice\\Random-Code-Practice\\C# Practice Stuff\\Programming_Practice.csproj",
-      "packagesPath": "C:\\Users\\mudki\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mudki\\programming_practice\\Random-Code-Practice\\C# Practice Stuff\\obj\\",
+      "projectPath": "C:\\Users\\mudki\\Programming_Practice\\C# Practice Stuff\\Programming_Practice.csproj",
+      "packagesPath": "C:\\Users\\Stephan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mudki\\Programming_Practice\\C# Practice Stuff\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\mudki\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Stephan\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
