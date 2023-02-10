@@ -6,11 +6,11 @@ namespace Program
     class Program
     {
         
+        public Dragon user = Start();
         
-        
-        public static void Main(string[] args)
+        public void Main(string[] args)
         {  
-            Dragon user = Start();
+            
             Console.WriteLine(user.Name); //NEED TO FIGURE OUT THE ISSUE WITH SCOPE HERE, for some reason the dragon object has to be within the scope of Main, and I can't figure out why.  So other classes can't access that dragon object, and that's a big problem for organization.
             
         }
