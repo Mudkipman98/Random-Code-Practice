@@ -9,21 +9,7 @@ namespace Program
         {
             Dragon user = Start();
 
-            Console.WriteLine("You find yourself in a cave.  There's a scavenger in front you, and they're brandishing a knife.  What do you do?");
-
-            string firstChoice1 = Console.ReadLine().ToLower();
-            string firstChoice2 = Console.ReadLine().ToLower();
-
-            string[] firstChoice = new string[] {firstChoice1, firstChoice2};
-
-            if(firstChoice[0] == "attack" && firstChoice[1] != "")
-            {
-                user.BreathAttack(firstChoice[1]);
-            }
-            else
-            {
-                Console.WriteLine("shid pood fard");
-            }
+            
 
 
 
@@ -39,7 +25,7 @@ namespace Program
         {
             Console.WriteLine("You are a dragon.  Tell me about yourself.");
 
-            //Prompt the user for the stats that will be used to create their dragon.
+            //Prompt the user for the stats that will be used to create their dragon, and give them some fluff back.
 
             Console.Write("What is your name? ");
             string name = Tools.StrGetResponse();
