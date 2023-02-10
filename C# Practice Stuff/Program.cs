@@ -11,19 +11,8 @@ namespace Program
         public static void Main(string[] args)
         {  
             
-            Start();
+            Console.WriteLine(user.Name); //NEED TO FIGURE OUT THE ISSUE WITH SCOPE HERE
             
-
-            
-
-
-
-            //uncomment the below and fill in the argument for quick debugging
-            // Console.WriteLine(user.Name);
-            // Console.WriteLine(user.Color);
-            // Console.WriteLine(user.Age);
-            // Console.WriteLine(user.Size);
-            // Console.WriteLine(user.HP);
         }
 
         public static void Start()
