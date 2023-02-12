@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Program
 {
@@ -6,16 +7,24 @@ namespace Program
     class Program
     {
         
-        public Dragon user = Start();
+        public static Dragon user = Start();
         
-        public void Main(string[] args)
+        public static void Main(string[] args)
         {  
             
-            Console.WriteLine(user.Name); //NEED TO FIGURE OUT THE ISSUE WITH SCOPE HERE, for some reason the dragon object has to be within the scope of Main, and I can't figure out why.  So other classes can't access that dragon object, and that's a big problem for organization.
+            // Console.WriteLine(user.Name); //NEED TO FIGURE OUT THE ISSUE WITH SCOPE HERE.  
+            //I get the issue with using static for the main method when the instantialization isn't static, 
+            //but not why methods in other files can't pull this dragon object into them.
+            // It seems like as long as the methods are accepting arguments that match the same type
+            //and not directly referring to members of the Dragon object, it's fine, just means more work in implementing those methods.  
+            //There's got to be a good way to automate that.  Maybe with some kind of declaration in main?
+
+            Console.WriteLine($"Welcome, {user.Name}.  Your journey begins now.");
+
             
         }
 
-        
+         
 
         public static Dragon Start()
         {
@@ -50,11 +59,13 @@ namespace Program
             }
 
             Console.WriteLine("One moment while I understand you."); //Clunky phrasing, consider revising.
+            Console.WriteLine("When you're ready to begin, press any key to continue...");
+            Console.ReadKey();
 
             Dragon user = new Dragon(name, color, age, size);
             return user;
 
-
+            Console.Clear();
         }
     }
 

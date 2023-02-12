@@ -1,10 +1,17 @@
 using System;
+using System.Collections.Generic;
 
 namespace Program
 {
 
     public class Tools
     {
+        public static void ReadKeyClear()
+        {
+            Console.WriteLine("Press any key to continue...");
+            Console.ReadKey();
+            Console.Clear();
+        }
 
         public static string StrGetResponse()
         {
