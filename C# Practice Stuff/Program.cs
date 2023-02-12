@@ -13,6 +13,7 @@ namespace Program
         {  
             
             // Console.WriteLine(user.Name); //NEED TO FIGURE OUT THE ISSUE WITH SCOPE HERE.  
+            //Because the Dragon user is static I can only call it using the type, but what if I need multiple dragons?  
             //I get the issue with using static for the main method when the instantialization isn't static, 
             //but not why methods in other files can't pull this dragon object into them.
             // It seems like as long as the methods are accepting arguments that match the same type
@@ -59,13 +60,14 @@ namespace Program
             }
 
             Console.WriteLine("One moment while I understand you."); //Clunky phrasing, consider revising.
-            Console.WriteLine("When you're ready to begin, press any key to continue...");
+            Console.WriteLine("Press any key to continue...");
             Console.ReadKey();
 
             Dragon user = new Dragon(name, color, age, size);
+            Console.Clear();
             return user;
 
-            Console.Clear();
+            
         }
     }
 
