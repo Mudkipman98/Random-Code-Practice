@@ -8,6 +8,10 @@ namespace Program
     {        
         public static void Main(string[] args)
         {  
+            //Room initialization
+
+            
+
             Dragon user = Start();
             // Console.WriteLine(user.Name); //NEED TO FIGURE OUT THE ISSUE WITH SCOPE HERE.  
             //Because the Dragon user is static I can only call it using the type, but what if I need multiple dragons?  
