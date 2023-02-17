@@ -22,7 +22,7 @@ namespace Program
 
             Console.WriteLine($"Welcome, {user.Name}.  Your journey begins now.");
 
-            
+            Console.WriteLine("You awake in your den.  It feels like morning, but you're deep underground.");
         }
 
          
