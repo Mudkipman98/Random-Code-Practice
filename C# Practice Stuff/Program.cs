@@ -5,13 +5,10 @@ namespace Program
 {
     
     class Program
-    {
-        
-        public static Dragon user = Start();
-        
+    {        
         public static void Main(string[] args)
         {  
-            
+            Dragon user = Start();
             // Console.WriteLine(user.Name); //NEED TO FIGURE OUT THE ISSUE WITH SCOPE HERE.  
             //Because the Dragon user is static I can only call it using the type, but what if I need multiple dragons?  
             //I get the issue with using static for the main method when the instantialization isn't static, 
@@ -22,7 +19,7 @@ namespace Program
 
             Console.WriteLine($"Welcome, {user.Name}.  Your journey begins now.");
 
-            
+            Console.WriteLine("You awake in your den.  It feels like morning, but you're deep underground.");
         }
 
          
