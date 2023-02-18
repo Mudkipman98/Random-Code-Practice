@@ -1,4 +1,8 @@
 using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace Program
 {
@@ -6,9 +10,11 @@ namespace Program
     class Parser
     {
 
-        public static string InputParser()
+        public static string InputParser(string[] input)
         {
-            string input = Console.ReadLine();
+            string verb;
+            string noun;
+            List<string> commands = new List<string> {"take", "drop"};
 
 
             string output = "";
