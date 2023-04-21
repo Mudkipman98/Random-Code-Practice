@@ -1,26 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mudki\\programming_practice\\Random-Code-Practice\\C# Practice Stuff\\Programming_Practice.csproj": {}
+    "C:\\Users\\mudki\\Programming_Practice\\Windows_Forms_Practice\\Windows_Forms_Practice.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mudki\\programming_practice\\Random-Code-Practice\\C# Practice Stuff\\Programming_Practice.csproj": {
+    "C:\\Users\\mudki\\Programming_Practice\\Windows_Forms_Practice\\Windows_Forms_Practice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mudki\\programming_practice\\Random-Code-Practice\\C# Practice Stuff\\Programming_Practice.csproj",
-        "projectName": "Programming_Practice",
-        "projectPath": "C:\\Users\\mudki\\programming_practice\\Random-Code-Practice\\C# Practice Stuff\\Programming_Practice.csproj",
-        "packagesPath": "C:\\Users\\mudki\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mudki\\programming_practice\\Random-Code-Practice\\C# Practice Stuff\\obj\\",
+        "projectUniqueName": "C:\\Users\\mudki\\Programming_Practice\\Windows_Forms_Practice\\Windows_Forms_Practice.csproj",
+        "projectName": "Windows_Forms_Practice",
+        "projectPath": "C:\\Users\\mudki\\Programming_Practice\\Windows_Forms_Practice\\Windows_Forms_Practice.csproj",
+        "packagesPath": "C:\\Users\\Stephan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mudki\\Programming_Practice\\Windows_Forms_Practice\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mudki\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Stephan\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -54,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
